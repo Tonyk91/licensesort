@@ -1,0 +1,15 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install pytest
+      - run: python -m pytest -q
+      # The rules layer is deterministic, so its eval runs on every push.
+      # It must never produce more than the one known wrong answer (see README).
+      - run: python eval.py --no-llm
+      - run: python -c "import json; r=json.load(open('results.json'))[0]; assert r['wrong'] <= 1, r"

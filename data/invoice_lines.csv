@@ -1,0 +1,46 @@
+line_id,description,gold_product,gold_term
+1,MSFT O365 E3 NCE annual commit,O365-E3,annual
+2,Microsoft 365 E3 - 12 month subscription,M365-E3,annual
+3,M365 E5 P1Y,M365-E5,annual
+4,Microsoft 365 Business Prem NCE 1M,M365-BP,monthly
+5,M365 BP monthly,M365-BP,monthly
+6,Office 365 E1 annual,O365-E1,annual
+7,PBI Pro yearly,PBI-PRO,annual
+8,Power BI Pro (NCE) 1 month term,PBI-PRO,monthly
+9,Visio Plan 2 - P1Y,VISIO-P2,annual
+10,Proj Plan 3 annual,PROJECT-P3,annual
+11,WinSvr DC 2022 16 core pack,WINSRV-DC,perpetual
+12,Windows Server 2022 Standard - 2 core license pack,WINSRV-STD,perpetual
+13,SQL Svr Std 2022 2C pack,SQL-STD,perpetual
+14,SQL Server Enterprise Core 2-pack perpetual,SQL-ENT,perpetual
+15,ADOBE ACROBAT PRO RNWL 12MO VIP LVL1,ACROBAT-PRO,annual
+16,Acrobat Standard DC for teams 12M,ACROBAT-STD,annual
+17,CC All Apps Ent VIP 12mo,ADOBE-CC-ALL,annual
+18,Creative Cloud for teams - All Apps (annual),ADOBE-CC-ALL,annual
+19,Jira Std Cloud 50u renewal 12m,JIRA-STD,annual
+20,Atlassian Jira Software Premium (Cloud) annual,JIRA-PREM,annual
+21,Confluence Standard Cloud - annual,CONFLUENCE-STD,annual
+22,Slack Business+ annual,SLACK-BPLUS,annual
+23,Zoom Workplace Pro 1yr,ZOOM-PRO,annual
+24,SFDC Sales Cloud Ent per user/month,SFDC-SALES-ENT,monthly
+25,Autodesk AutoCAD - including specialized toolsets 1Y subscription,AUTOCAD,annual
+26,AutoCAD LT 2025 annual,AUTOCAD-LT,annual
+27,Tableau Creator 1yr,TABLEAU-CREATOR,annual
+28,GH Ent Cloud seats annual,GITHUB-ENT,annual
+29,IntelliJ IDEA Ultimate - commercial annual subscription,INTELLIJ-ULT,annual
+30,E3 user subs (Microsoft) renew 36M,M365-E3,3-year
+31,Document Cloud Pro - team license 12 mo,ACROBAT-PRO,annual
+32,MS Teams Ess./Off365 E3 bundle - yearly,O365-E3,annual
+33,Atlassian Wiki (Confluence) Std tier 1y,CONFLUENCE-STD,annual
+34,Adobe Photoshop+Illustrator+InDesign etc (complete plan) 12 months,ADOBE-CC-ALL,annual
+35,Microsoft Business Premium 365 per month,M365-BP,monthly
+36,Autodesk ACAD full 3Y,AUTOCAD,3-year
+37,JetBrains IDEA Ult. 1yr,INTELLIJ-ULT,annual
+38,Salesforce Enterprise Edition - Sales,SFDC-SALES-ENT,unknown
+39,Win Server Datacenter core lic,WINSRV-DC,perpetual
+40,Freight & handling,UNKNOWN,unknown
+41,Installation services 4h onsite,UNKNOWN,unknown
+42,Miro Business annual,UNKNOWN,annual
+43,Dell Latitude 5450 laptop,UNKNOWN,unknown
+44,Microsoft 365 E5 Security add-on annual,UNKNOWN,annual
+45,Notion Plus yearly,UNKNOWN,annual

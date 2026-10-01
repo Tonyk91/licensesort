@@ -1,0 +1,45 @@
+[
+  {
+    "setup": "rules only",
+    "lines": 45,
+    "correct": 36,
+    "wrong": 1,
+    "review": 8,
+    "by_rule": 32,
+    "by_model": 0,
+    "term_correct": 43,
+    "errors": [
+      "#44 \"Microsoft 365 E5 Security add-on annual\" -> M365-E5 (rule), expected UNKNOWN"
+    ],
+    "s_per_line": 0.0
+  },
+  {
+    "setup": "model only (qwen2.5:3b)",
+    "lines": 45,
+    "correct": 44,
+    "wrong": 1,
+    "review": 0,
+    "by_rule": 0,
+    "by_model": 39,
+    "term_correct": 43,
+    "errors": [
+      "#31 \"Document Cloud Pro - team license 12 mo\" -> ADOBE-CC-ALL (model), expected ACROBAT-PRO"
+    ],
+    "s_per_line": 0.502
+  },
+  {
+    "setup": "rules + model (qwen2.5:3b)",
+    "lines": 45,
+    "correct": 43,
+    "wrong": 2,
+    "review": 0,
+    "by_rule": 32,
+    "by_model": 8,
+    "term_correct": 43,
+    "errors": [
+      "#31 \"Document Cloud Pro - team license 12 mo\" -> ADOBE-CC-ALL (model), expected ACROBAT-PRO",
+      "#44 \"Microsoft 365 E5 Security add-on annual\" -> M365-E5 (rule), expected UNKNOWN"
+    ],
+    "s_per_line": 0.142
+  }
+]

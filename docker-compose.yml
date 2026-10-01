@@ -1,0 +1,14 @@
+# Self-hosted inference on a Linux box. On a Mac, run Ollama natively instead:
+# Docker Desktop can't reach the Apple GPU, so the model would run on CPU only.
+services:
+  ollama:
+    image: ollama/ollama:latest
+    ports: ["11434:11434"]
+    volumes: ["ollama:/root/.ollama"]
+  pull-model:
+    image: ollama/ollama:latest
+    depends_on: [ollama]
+    environment: [OLLAMA_HOST=ollama:11434]
+    entrypoint: ["ollama", "pull", "qwen2.5:3b"]
+volumes:
+  ollama:
